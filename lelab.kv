@@ -1,4 +1,40 @@
-BoxLayoutExemple:
+GridLayoutExemple:
+
+
+<GridLayoutExemple>:
+    cols: 3
+    Button:
+        text: "A"
+        size_hint: None, 1
+        width: "60dp"
+    BoxLayoutExemple:
+    Button:
+        text: "C"
+    Button:
+        text: "D"
+        size_hint: None, 1
+        width: "60dp"
+    Button:
+        text: "E"
+    Button:
+        text: "F"
+
+
+<AnchorLayoutExemple>:
+    anchor_x: "center"
+    anchor_y: "top"
+
+    BoxLayout:
+        size_hint: .2, .2
+        Button:
+            text: "A"
+        Button:
+            text: "B"
+        Button:
+            text: "C"
+
+
+
 
 <BoxLayoutExemple>:
     orientation: "horizontal"
